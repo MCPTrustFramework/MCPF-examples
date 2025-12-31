@@ -1,0 +1,19 @@
+{
+  "name": "mcpf-examples",
+  "version": "1.0.0",
+  "description": "Real-world MCPF examples",
+  "scripts": {
+    "test": "jest",
+    "test:banking": "jest banking/",
+    "test:healthcare": "jest healthcare/",
+    "test:integration": "jest --testPathPattern=integration",
+    "benchmark": "node scripts/benchmark.js"
+  },
+  "keywords": ["mcpf", "examples", "trust-framework"],
+  "author": "MCP Trust Framework Contributors",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0"
+  }
+}
